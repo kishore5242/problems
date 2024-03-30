@@ -4,12 +4,12 @@ import java.util.Arrays;
 
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] arr = {6, 4, 8, 3, 9, 2, 0, 1};
+        int[] arr = {3, 7, 8, 2, 9};
 
-        // {6, 4, 8, 3, 9, 2, 0, 1}
-        //  i>
-        //  j>             <i-1
-        // swap
+        // {3, 7, 8, 2, 9}
+        //  i>----------
+        //  j>-----<i
+        // swap if j > j+1
 
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = 0; j < arr.length - i - 1; j++) {

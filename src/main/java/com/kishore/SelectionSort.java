@@ -6,12 +6,12 @@ public class SelectionSort {
 
     public static void main(String[] args) {
 
-        int[] arr = {4, 6, 2, 8, 9, 1, 0, 3};
+        int[] arr = {3, 7, 8, 2, 9};
 
-        // {4, 6, 2, 8, 9, 1, 0, 3}
-        //  i>
-        //     j>----------------- select the smallest
-        // swap i with the smallest
+        // {3, 7, 8, 2, 9}
+        //  i>--------
+        //     j>--------  select the smallest
+        // swap i with smallest
 
         for (int i = 0; i < arr.length - 1; i++) {
             int smallest = i;
